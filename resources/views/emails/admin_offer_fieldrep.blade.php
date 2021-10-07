@@ -1,0 +1,61 @@
+<table width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#ffffff" >
+    <tbody>
+        <tr>
+            <td style="text-align:left">
+                <table style="margin: 0 auto;" class="m_7514756023630913654m_8194902932891523857widthFull-" width="100%" cellspacing="0" cellpadding="0" border="0">
+                    <tbody>
+                        <tr>
+                            <td style="background-color:#3C8DBC;vertical-align:top;text-align:center" bgcolor="#000000">
+                                <table cellspacing="0" cellpadding="0" border="0" align="center">
+                                    <tbody>
+                                        <tr>
+                                            <td class="m_7514756023630913654m_8194902932891523857height75-" height="auto">
+                                                <a href="javascript:void(0)">
+                                                    <img src="{{ AppHelper::APP_URL.AppHelper::LOGO_WHITE }}" alt="Alpha Rep Service" title="Alpha Rep Service" style="display:block; padding: 6px 0;" class="CToWUd" width="auto" height="50" border="0">
+                                                </a>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table style="margin: 0 auto; border-bottom: 1px solid #e5e5e5; border-left: 1px solid #e5e5e5; border-right: 1px solid #e5e5e5" class="m_7514756023630913654m_8194902932891523857widthFull-" width="100%" cellspacing="0" cellpadding="0" border="0">
+                    <tbody>
+                        <tr>
+                            <td style="padding:25px 20px 25px 20px" class="m_7514756023630913654m_8194902932891523857mainStory-" bgcolor="#ffffff">
+                                <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                                    <tbody>
+                                        <tr>
+                                            <td style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:25px;line-height:30px;color:#000000;font-weight:bold;text-align:center" class="m_7514756023630913654m_8194902932891523857headline-">
+                                             Service Offered
+                                         </td>
+                                     </tr>
+                                     <tr>
+                                        <td style="font-size:1px;line-height:10px" class="m_7514756023630913654m_8194902932891523857height14-" height="10">&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:16px;line-height:26px;color:#666666;" class="m_7514756023630913654m_8194902932891523857body-">
+                                            Dear {{ @$fieldrep->first_name}}, 
+
+                                            <p>Congratulations! Based on your initial screening, your qualifications match available assignment at the following location.</p>
+
+                                            <p> [{{ @$details['site_code'] }}]-{{ @$details['location'] }}</p>
+                                        
+                                            <p>You can obtain detailed information about the assignment by logging on to <a href="{{ AppHelper::APP_URL }}">{{ AppHelper::APP_URL }}</a></p>
+
+                                            Thank you. <br>
+                                            Alpha Rep Service
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+    </tr>
+</tbody>
+</table>
